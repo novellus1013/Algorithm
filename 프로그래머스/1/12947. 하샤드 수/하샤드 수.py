@@ -1,12 +1,6 @@
 def solution(x):
     num = 0
     
-    for i in str(x):
-        num += int(i)
+    num = sum([int(i) for i in str(x)])
     
-    if x % num == 0:
-        answer = True
-    else:
-        answer = False
-    
-    return answer
+    return x % num == 0
