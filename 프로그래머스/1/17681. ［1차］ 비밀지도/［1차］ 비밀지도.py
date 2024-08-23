@@ -9,7 +9,7 @@ def solution(n, arr1, arr2):
     arr1 = ["0" * (n - len(i)) + i if len(i) != n else i for i in arr1]
     arr2 = ["0" * (n - len(i)) + i if len(i) != n else i for i in arr2]
             
-    
+    # 이중 for문으로 arr1과 arr2의 값이 모두 0이면 공백, 아니면 벽을 추가
     for i in range(0, n):
         maps = ""
         
