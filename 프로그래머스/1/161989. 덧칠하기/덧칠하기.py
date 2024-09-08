@@ -2,8 +2,7 @@ def solution(n, m, section):
     num = section[0]
     answer = 1
     
-    if m == 1:
-        return len(section)
+ 
     
     if len(section) == 1:
         return 1
