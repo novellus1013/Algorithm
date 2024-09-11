@@ -13,20 +13,13 @@ def solution(n, k):
     
     word = word.replace("0"," ").split( )
     
-    new_word = [int(item) for item in word]
+    new_word = [int(item) for item in word if item != "1"]
     
     for i in new_word:
-        is_prime = True;
-        if i < 2:
-            is_prime = False;
-            
         for j in range(2, int(i ** 0.5) + 1):
             if i % j == 0:
-                is_prime = False;
+                new_word.remove(i)
                 break
-
-        if not is_prime:
-            new_word = [x for x in new_word if x != i]
         
     answer = len(new_word)     
     return answer
