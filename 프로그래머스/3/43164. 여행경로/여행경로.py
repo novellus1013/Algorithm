@@ -4,7 +4,7 @@ def solution(tickets):
     tickets.sort()
     answer = []
     visited = [False] * len(tickets)
-    q = deque([("ICN", ["ICN"], visited[:])])
+    q = deque([("ICN", ["ICN"], visited)])
 
     while q:
         current, path, visited_state = q.popleft()
