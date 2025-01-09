@@ -1,6 +1,6 @@
 # [level 1] 최소직사각형 - 86491 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/86491?language=python3) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/86491) 
 
 ### 성능 요약
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2025년 01월 09일 11:58:08
+2025년 01월 09일 11:59:11
 
 ### 문제 설명
 
